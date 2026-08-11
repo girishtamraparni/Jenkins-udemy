@@ -70,7 +70,7 @@ pipeline {
 
                     withCredentials([
                         usernamePassword(
-                            credentialsId: '1bb08ca6-f3cb-4ec7-953f-c3f7a93401ac',
+                            credentialsId: '46b16f35-d868-49a2-bfef-9065b2579ca8',
                             usernameVariable: 'DOCKER_HUB_USER',
                             passwordVariable: 'DOCKER_HUB_PASSWORD'
                         )
